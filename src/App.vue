@@ -6,6 +6,8 @@ onMounted(async () => {
   // let res = await fetch('http://kg.zhaodashen.cn/mt/admin/roles/index.jsp')
   console.log(res)
 })
+
+console.log(999)
 </script>
 
 <template>

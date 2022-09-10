@@ -10,7 +10,7 @@
     "lint": "eslint . --ext .vue,.js,.ts,.jsx,.tsx --fix",
     "format": "prettier --write \"./**/*.{html,vue,ts,js,json,md}\"",
     "prepare": "husky install",
-    "commit": "cz"
+    "commit": "git add . && cz"
   },
   "config": {
     "commitizen": {
